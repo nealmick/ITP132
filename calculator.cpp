@@ -1,15 +1,6 @@
 #include <iostream>
 #include <cmath>
 
-/*
-  Assingment:
-
-  1. Add the ability to multiply two numbers. Create a multiply function to do so.
-  2. Add the ability to divide two numbers. Create a divide function to do so.
-     Your function should not allow division by zero.
-  3. Update the current functions to support the new functionality you have added.
-
-*/
 
 // internal function declarations . . .
 void    help_screen();
