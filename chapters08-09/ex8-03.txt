@@ -1,0 +1,6 @@
+3. Which one of the following values could be computed by the rand function?
+
+    4.5   34   -1   RAND_MAX + 1
+
+all except 4.5
+std::cout << rand() % 4.5; //this generates error

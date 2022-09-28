@@ -1,0 +1,2 @@
+6. Ordinarily how often should a program call the srand function?
+once at the beggining 

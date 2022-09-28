@@ -1,0 +1,2 @@
+2. In C ++ source code what is one way to help you distinguish a variable name from a function name?
+by looking at the definition

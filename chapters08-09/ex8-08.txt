@@ -1,0 +1,60 @@
+8. Consider each of the following code fragments below that could be part of a C++ 
+program. Each fragment contains a call to a standard C/C++ library function. 
+Answer each question in one of the following three ways:
+    -  If the code fragment contains a compile-time error, write the word 
+       error for the answer.
+
+    -  If the code fragment contains no compile-time errors and you can 
+       determine its output atcompile-time, provide the fragment's literal 
+       output.
+
+    -  If the code fragment contains no compile-time errors but you cannot 
+       determine its exact outputat compile-time, provide one possible 
+       evaluation and write the word example for the answer and provide one 
+       possible literal output that the code fragment could produce.
+
+    (a) std::cout << sqrt(4.5) << '\n';
+    2.12
+    (b) std::cout << sqrt(4.5, 3.1) << '\n';
+   error
+    (c) std::cout << rand(4) << '\n';
+    error
+    (d) double d = 16.0;std::cout << sqrt(d) << '\n';
+    4
+    (e) std::cout << srand() << '\n';
+    error
+    (f) std::cout << rand() << '\n';
+    16807
+    (g) int i = 16;std::cout << sqrt(i) << '\n';
+    4
+    (h) std::cout << srand(55) << '\n';
+    error
+    (i) std::cout << tolower('A') << '\n';
+    97
+    (j) std::cout << exp() << '\n';
+    error
+    (k) std::cout << sqrt() << '\n';
+    error
+    (l) std::cout << toupper('E') << '\n';
+    69
+    (m) std::cout << toupper('e') << '\n';
+    69
+    (n) std::cout << toupper("e") << '\n';
+    error
+    (o) std::cout << exp(4.5) << '\n';
+    90.0171
+    (p) std::cout << toupper('h', 5) << '\n';
+    error
+    (q) std::cout << ispunct('!') << '\n';
+    1
+    (r) std::cout << tolower("F") << '\n';
+    error
+    (s) char ch = 'D';std::cout << tolower(ch) << '\n';
+    100
+    (t) std::cout << exp(4.5, 3) << '\n';
+    error
+    (u) std::cout << toupper('7') << '\n';
+    55
+    (v) double a = 5, b = 3;std::cout << exp(a, b) << '\n';
+    error
+

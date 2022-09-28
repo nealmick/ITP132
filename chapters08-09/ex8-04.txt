@@ -1,0 +1,2 @@
+4. What does clock_t represent? (what is it's datatype?)
+clock_t is a typedef of long int, number of cpu cycles

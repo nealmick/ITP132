@@ -1,0 +1,2 @@
+Chapter 10 ex7. If x is a variable, how would you determine its address in the 
+computer's memory?
